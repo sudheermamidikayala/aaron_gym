@@ -1,0 +1,113 @@
+html{
+    margin: 0px;
+}
+body{
+    background-image: url('/IMAGES/adult-1850925_1280.jpg');
+    background-size: 100%;
+}
+.gymLogo img{
+    filter: invert(100%);
+    width: 62px;
+    padding: 0px 0px 0px 30px;
+    
+}
+.gymLogo p {
+    color: white;
+    font-weight: bold;
+    margin: 0px 0px;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 12px 19px 21px;
+    border-radius: 15px;
+}
+.navBar ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+.navBar ul li a {
+
+    text-decoration: none;
+    color: white;
+    padding: 0px 35px;
+    font-weight: bold;
+}
+/* .nav1{
+    /* text-decoration: none; */
+    /* color: white;
+    padding: 0px 35px;
+    font-weight: bold;
+}
+.nav2{ */
+    /* text-decoration: none;
+    color: white;
+    padding: 0px 35px;
+    font-weight: bold;
+} */ 
+.gymLogo{
+    position: relative;
+    top:8px;
+    left: 5px;
+}
+.contactUs{
+    position: relative;
+    top: 28px;
+    right: 17px;
+}
+.navBar {
+    padding: 24px 0px 0px 0px;
+}
+button {
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 9px 8px;
+    margin-right: 7px;
+    font-weight: bolder;
+    background-color: lavenderblush;
+    cursor: pointer;
+}
+.registration{
+    border: 2px solid white;
+    display: inline-block;
+    padding: 24px 69px 46px 69px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 27px;
+    text-align: center;
+    /* float: right; */
+    position: absolute;
+    right:200px;
+    top:300px;
+}
+h2 {
+    color: white;
+    font-family: cursive;
+}
+input[type="text"] {
+    padding: 3px 42px;
+    margin: 3px 0px;
+    border-radius: 20px;
+    font-style: oblique;
+    font-weight: bold;
+}
+input[type="submit"] {
+    margin: 7px 0px;
+    padding: 3px 105px;
+    border-radius: 12px;
+    font-weight: bold;
+    background-color: aliceblue;
+    cursor: pointer;
+    background-color: #768d76;
+}
+a:hover {
+
+    font-size: 1.2em;
+    /* padding: 0px 20px;
+    margin: -10px; */
+}
+input[type="submit"]:hover{
+    background-color: rgb(82, 232, 82);
+}
